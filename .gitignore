@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Model cache
+.model_cache/
+
+# Data (keep raw/ tracked but not vectorstore or processed)
+data/processed/
+data/vectorstore/
+data/golden.json
+
+# Eval outputs
+runs.csv
+logs/
+data/eval_run_*.json
+.claude/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/

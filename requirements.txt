@@ -1,0 +1,50 @@
+# LangChain core
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+langchain-groq>=0.2.0
+langchain-huggingface>=0.1.0
+langchain-text-splitters>=0.3.0
+
+# Groq API client (used directly in eval — no LangChain wrapper needed there)
+groq>=0.9.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+huggingface-hub>=0.24.0
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# PDF processing
+pypdf>=4.3.0
+
+# PDF generation (sample docs + test fixtures)
+fpdf2>=2.7.9
+
+# UI
+streamlit>=1.40.0
+
+# Eval (ragas/datasets not listed — RAGAS metrics are implemented
+# from scratch in eval/ragas_scorer.py; no scikit-network dependency)
+
+# LangSmith
+langsmith>=0.1.140
+
+# Environment
+python-dotenv>=1.0.0
+
+# HTTP
+requests>=2.32.0
+
+# Data
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+
+# Testing
+pytest>=8.3.0
+pytest-cov>=5.0.0
